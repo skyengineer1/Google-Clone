@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #202124;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2em;
+    margin-right: 2em;
+    color: white;
+    padding: 1em;
+}
+
+.images,
+.gmail {
+    cursor: pointer;
+}
+
+.images:hover, .gmail:hover {
+    text-decoration: underline;
+}
+
+i {
+    cursor: pointer;
+}
+
+button.sign {
+    background-color: aqua;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: rgb(1, 218, 218);
+}
+
+.sign:active {
+    background-color: rgb(0, 203, 203);
+}
+
+/* MAIN */
+
+main {
+    width: 40em;
+    height: 25em;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    color: rgb(150, 150, 150);
+}
+
+span.offer {
+    cursor: pointer;
+    color: aqua;
+}
+
+.offer:hover {
+    text-decoration: underline;
+}
+
+input {
+    width: 35em;
+    height: 3em;
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+button.search,
+button.lucky {
+    background-color: rgb(60, 60, 60);
+    border: none;
+    padding: 1em 2em;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.search:hover, .lucky:hover {
+    background-color: rgb(43, 43, 43)
+}
+
+.search:active, .lucky:active {
+    background-color: rgb(32, 32, 32);
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+div.top {
+    border-bottom: 1px solid rgb(60, 60, 60);
+    padding: 1em;
+}
+
+p.georgia {
+    margin-left: 1em;
+}
+
+div.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+div.left,
+div.right {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+div.left {
+    margin-left: 1em;
+}
+
+div.right {
+    margin-right: 1em;
+}
+
+.bottom p {
+    cursor: pointer;
+}
+
+.bottom p:hover {
+    text-decoration: underline;
+}
